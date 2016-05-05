@@ -1,0 +1,21 @@
+{
+  "name": "h-blog",
+  "homepage": "https://github.com/othman853/Rails-on-Heroku",
+  "authors": [
+    "othman853 <anuar.yasser@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
