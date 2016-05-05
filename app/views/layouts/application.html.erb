@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>HBlog</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
@@ -10,7 +9,13 @@
 </head>
 <body>
 
-<%= yield %>
+  <div class="container">
+
+    <div class="col-lg-11 col-offset-lg-1">
+      <%= yield %>
+    </div>
+
+  </div>
 
 </body>
 </html>
